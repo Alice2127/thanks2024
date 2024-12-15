@@ -3,7 +3,7 @@ defmodule Thanks do
   Documentation for `Thanks`.
   """
 
-  def main() do
+  def main(_args) do
     Thanks.greeting()
   end
 
