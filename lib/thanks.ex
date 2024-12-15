@@ -13,9 +13,7 @@ defmodule Thanks do
 
   """
   def greeting do
-    "#{IO.ANSI.color(Enum.random(1..5))}Thanks for everyone!! "
+    (IO.ANSI.color(Enum.random(1..5)) <> "Thanks for everyone!!")
     |> IO.puts()
   end
-
-  
 end
