@@ -3,6 +3,10 @@ defmodule Thanks do
   Documentation for `Thanks`.
   """
 
+  def main() do
+    Thanks.greeting()
+  end
+
   @doc """
   Show a message who I want to appreciate with.
 
