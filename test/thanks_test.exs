@@ -3,6 +3,6 @@ defmodule ThanksTest do
   doctest Thanks
 
   test "say thank you" do
-    assert Thanks.greeting() == "Thanks for everyone!!"
+    assert Thanks.greeting() == "Thanks for everyone!! Thanks for everyone!! Thanks for everyone!! "
   end
 end
